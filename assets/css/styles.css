@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 html {
@@ -12,10 +12,8 @@ html {
 }
 
 .logo {
-  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 24px;
   font-weight: bold;
-  background-color: #4aaaa5;
   padding: 10px;
   color: #fff !important;
 }
@@ -37,6 +35,8 @@ main {
   color: #fff;
 }
 
-.jumbotron jumbotron-fluid {
-  background-image: url();
-}
+.jumbotron {
+  margin-top: 20px;
+  background-image: url("https://www.andisa.net/wp-content/uploads/2017/08/Background-header-home.jpg");
+  background-size: cover;
+ }
