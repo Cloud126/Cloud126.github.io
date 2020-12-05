@@ -1,14 +1,16 @@
 body {
   font-family: 'Quicksand', sans-serif;
+  background-image: url("https://res.cloudinary.com/tempest/image/upload/c_limit,cs_srgb,dpr_1.0,q_80,w_10000/MTI5MzY3NjMxODg2MDY0MDk0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #464646;
+  background-position: center center;
 }
 
 html {
   position: relative;
   min-height: 100%
-}
-
-.navbar {
-  border-bottom: 1px solid #efefef;
 }
 
 .logo {
@@ -22,9 +24,22 @@ main {
   margin: 80px 0;
 }
 
-/* ------------------------- */
-/* other styles will be here */
-/* ------------------------- */
+.jumbotron {
+  background-size: cover;
+ }
+
+ .bio {
+   display: flex;
+ }
+
+ .nav {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   font-size: 30px;
+ }
+
 
 .footer {
   height: 62px;
@@ -35,8 +50,22 @@ main {
   color: #fff;
 }
 
-.jumbotron {
-  margin-top: 20px;
-  background-image: url("https://www.andisa.net/wp-content/uploads/2017/08/Background-header-home.jpg");
-  background-size: cover;
- }
+/* media query */
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(https://res.cloudinary.com/tempest/image/upload/c_limit,cs_srgb,dpr_1.0,q_80,w_10000/MTI5MzY3NjMxODg2MDY0MDk0.jpg);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+  nav {
+    display:flex;
+    flex-direction:column;
+    font-size: 20px;
+    width: 100%;
+  }
+  }
+}
+
