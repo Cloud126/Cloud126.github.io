@@ -10,23 +10,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand logo text" href="index.html"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar">
-          <div class="navbar-nav ml-auto mt-2 mt-lg-0 ">
-            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-link" href="contact.html">Contact</a>
+   <!--Narbar-->
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand logo text" href="index.html"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <div class="navbar-nav ml-auto mt-2 mt-lg-0 ">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-link" href="contact.html">Contact</a>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
-
+      </nav>
+    </header> 
+    
     <main>
+      <!--Jumbotron header-->
       <section>
           <div class="jumbotron jumbotron-fluid container-fluid text-white">
             <div class="container">
@@ -35,17 +39,28 @@
             </div>
           </div>
       </section>
+      <!--content-->  
       <section class="container">
         <div class="row">
-          <div class="col-md-6">
-            <img src="" alt="example" class="img-thumbnail">   
+          <div class="container">
+            <div class="row">
+              <div class="col-sm text-white">
+                <h4>My Links</h4>
+                  <ul>
+                    <li>
+                      <a href="https://github.com/Cloud126">Github Page</a>
+                    </li>
+                  </ul>
+             </div>
+              <div class="col-sm">
+              </div>
+              <div class="col-sm">
+                <h3 class="bio text-white">About Me</h3>
+                <p>I was born in Mexico and moved to North Carolina many years ago. Currently, I am a student at UNC Chapel Hill Coding Bootcamp, with the hopes of one day becoming a full-time web developer. The road will not be easy, but I am prepared to tackle whatever challenges will come.</p>
+              </div>
+            </div>
           </div>
-          <div class="col-md-6">
-            <p>I was born in Mexico and moved to North Carolina many years ago. Currently, I am a student at UNC Chapel Hill Coding Bootcamp, with the hopes of one day becoming a full-time web developer. The road will not be easy, but I am prepared to tackle whatever challenges will come.</p> 
-          </div>
-        </div>
       </section>
-
     </main>
     
     <footer class="footer fixed-bottom">
