@@ -54,15 +54,22 @@ main {
 
 /* media query */
 
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   body {
     background-image: url(https://res.cloudinary.com/tempest/image/upload/c_limit,cs_srgb,dpr_1.0,q_80,w_10000/MTI5MzY3NjMxODg2MDY0MDk0.jpg);
   }
 }
 
-@media only screen and (max-width: 400px) {
-  body {
-    
+@media screen and (max-width: 770px) {
+  .card-deck {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .card {
+    margin: 20px
   }
 }
 
