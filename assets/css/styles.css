@@ -61,6 +61,17 @@ main {
   }
 }
 
+@media screen and (max-width: 770px) {
+  .card-deck {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
+@media screen and (max-width: 770px) {
+  .card {
+    margin: 20px
+  }
+}
 
 
