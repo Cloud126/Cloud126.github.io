@@ -8,18 +8,10 @@ body {
   background-position: center center;
 }
 
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  padding: 10px;
-  color: #fff !important;
-}
-
 main {
   margin: 80px 0;
 }
-
+/*Jumbotron*/
 .jumbotron {
   background: rgb(73, 160, 214);
   background-size: cover;
@@ -27,7 +19,7 @@ main {
   height: auto;
   text-align: center;
  }
-
+/*Navagation*/
  .nav {
    display: flex;
    justify-content: center;
@@ -36,13 +28,20 @@ main {
    font-size: 30px;
    border-bottom: 6px solid rgb(44, 44, 44);
   }
-
+  /*My Links ul*/
+  ul {
+    background-color: linen;
+    padding: 15px;
+    border-radius: 3px;
+    list-style-type: none;
+  }
+  /*About me content*/
  .col-sm p{
    background-color: linen;
    padding: 15px;
    border-radius: 3px;
  }
-
+/*Footer*/
 .footer {
   height: 62px;
   border-top: 6px solid rgb(44, 44, 44);
@@ -54,23 +53,29 @@ main {
 
 
 /* media query */
-
+/*Controls background*/
 @media screen and (max-width: 767px) {
   body {
     background-image: url(https://res.cloudinary.com/tempest/image/upload/c_limit,cs_srgb,dpr_1.0,q_80,w_10000/MTI5MzY3NjMxODg2MDY0MDk0.jpg);
   }
 }
-
+/*card deck*/
 @media screen and (max-width: 770px) {
   .card-deck {
     display: flex;
     flex-direction: column;
   }
 }
-
+/*card deck*/
 @media screen and (max-width: 770px) {
   .card {
     margin: 20px
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .display-4 {
+    font-size: 40px;
   }
 }
 
